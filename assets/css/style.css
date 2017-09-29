@@ -968,3 +968,247 @@ ul.topic-list-navigation li + li {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
+
+/* Small Screen and Mobile Support */
+
+@media screen and (max-width: 1199px) {
+.channels-sidebar.col-lg-3 {
+width: 100% !important;
+position: absolute;
+left: 0;
+right: 0;
+padding: 0 130px;
+margin: 0;
+margin-top: -120px !important;
+}
+.channels-sidebar.col-lg-3 aside.main-sidebar {
+    margin-right: 0px !important;
+}
+.channel-list.col-lg-9 {
+margin-top: 120px !important;
+width: 100% !important;
+}
+}
+
+@media screen and (max-width: 985px) {
+.row, .user-admin .main-content {
+margin-right: 0px;
+margin-left: 0px;
+}
+.meta-header .rss-feed {
+margin-right: 74px !important;
+}
+header nav.navbar-default ul {
+z-index: 5;
+right: 0px;
+}
+header nav.navbar-default .navbar-container-top {
+padding: 0 10px;
+}
+header nav.navbar-default .navbar-container-top .header-left {
+z-index: 5;
+height: auto;
+width: 100%;
+}
+header nav.navbar-default .navbar-container-top .header-left .logo-section .logo-section-top {
+padding: 5px 0 0 0;
+z-index: 5;
+}
+header nav.navbar-default .navbar-container-top .header-left .logo-section .logo-section-top span.channel-name {
+height: 28px;
+max-width: 100%;
+}
+header nav.navbar-default .navbar-container-top .header-left .logo-section .logo-section-top span.channel-name a.ng-binding {
+font-size: 13px;
+}
+header nav.navbar-default .navbar-container-top .sort-channels {
+padding-top: 0px;
+margin-left: 120px;
+margin-right: unset;
+width: 200px;
+z-index: 10;
+font-size: 13px;
+}
+.navbar-container-top ul.col-xs-3 {
+position: absolute;
+width: auto;
+padding: 0;
+margin: 0;
+left: 370px;
+margin-top: 34px;
+}
+.navbar-container-top div.col-xs-3 {
+position: absolute;
+width: auto;
+padding: 0;
+margin: 0;
+left: 5px;
+}
+.navbar-container-top div.col-xs-3 .user-menu {
+margin-top: 33px;
+}
+.navbar-container-top .col-xs-6 {
+width: auto;
+}
+
+.container {
+max-width: 100%;
+}
+.well {
+min-height: 20px;
+padding: 5px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+section.col-xs-3 {
+position: absolute;
+width: 750px;
+padding: 0;
+margin: 0;
+margin-top: 0px;
+}
+.col-xs-9 {
+padding: 0;
+margin: 0;
+width: 100%;
+}
+main .main-content {
+margin-top: 150px;
+padding: 20px 10px;
+}
+main aside.main-sidebar {
+margin-right: 0px;
+max-height: 185px;
+}
+main aside.main-sidebar h2 {
+max-height: 24px;
+overflow: hidden;
+}
+main aside.main-sidebar ul li {
+width: 25%;
+float: left;
+}
+main aside.main-sidebar ul li a.btn {
+font-size: 15px;
+font-weight: normal;
+max-width: 160px;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+main aside.main-sidebar ul.main-section-sidebar-menu h3 {
+margin-top: 0px;
+margin-right: 10px;
+font-weight: bold;
+font-size: 18px;
+margin-left: 20px;
+padding: 10px 0;
+width: 100px;
+}
+.channels-sidebar.col-lg-3 aside.main-sidebar ul li {
+width: 100% !important;
+}
+.channels-sidebar.col-lg-3 aside.main-sidebar ul li a.btn {
+font-weight: bold;
+max-width: 100% !important;
+}
+.col-xs-12.main-section-sidebar-menu.ng-scope {
+padding: 10px 0;
+}
+.col-xs-12.main-section-sidebar-menu.ng-scope hr {
+display: none !important;
+}
+.sidebar-channel.col-xs-12.ng-scope hr {
+margin: 0 0 5px 0 !important;
+}
+.col-lg-3 ul li a.btn {
+font-size: 13px !important;
+}
+.user-admin aside ul li a {
+padding: 10px 0px;
+width: 50%;
+float: left;
+font-size: 15px;
+text-align: center;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+
+.form-field .col-xs-2 {
+width: 20%;
+padding: 0;
+}
+.form-field .col-xs-10 {
+width: 80%;
+}
+.form-field.col-xs-6 .col-xs-3 {
+width: 100px;
+}
+.form-field.col-xs-4 {
+width: 50%;
+} 
+.form-field.col-xs-4 .col-xs-6 {
+width: 260px;
+}
+header nav.navbar-default .user-menu ul li:nth-child(1) .user-name {
+font-size: 12px !important;
+}
+
+section.col-xs-3 {
+width: 100%;
+right: 0px;
+}
+.channels-sidebar.col-lg-3 {
+padding: 0 5px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.navbar-container-top div.col-xs-3 {
+left: 5px;
+}
+.navbar-container-top ul.col-xs-3 {
+position: absolute;
+width: auto;
+padding: 0;
+margin: 0;
+right: unset;
+left: 5px;
+margin-top: 75px;
+}
+header nav.navbar-default .user-menu ul li:nth-child(1) {
+max-width: 200px;
+overflow: hidden;
+word-break: break-all;
+}
+.container {
+margin-top: 40px;
+}
+main aside.main-sidebar {
+    margin-right: 0px;
+    padding: 0 10px;
+}
+main aside.main-sidebar ul.main-section-sidebar-menu h3 {
+margin-top: 20px;
+}
+main aside.main-sidebar ul li {
+width: 33%;
+margin-left: -10px;
+}
+main aside.main-sidebar .col-xs-12 {
+    padding: 10px 10px;
+    }
+main .main-content {
+margin-top: 150px;
+}
+.topic-body {
+margin-top: 30px;
+}
+blockquote {
+padding: 10px 10px;
+}
+}
