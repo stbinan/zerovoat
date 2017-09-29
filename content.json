@@ -1202,6 +1202,6 @@
   "index.html",
   "js/all.js"
  ],
- "viewport": "width=device-width, initial-scale=1.0",
+ "viewport": "width=device-width, initial-scale=0.8",
  "zeronet_version": "0.5.1"
 }
