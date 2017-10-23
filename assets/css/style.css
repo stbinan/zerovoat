@@ -309,6 +309,7 @@ header .meta-header .user-menu ul li a {
   border-bottom: 0;
   float: left;
   line-height: 20px;
+  white-space: nowrap;
 }
 header .meta-header .user-menu ul li i {
   font-size: 14px;
@@ -427,6 +428,7 @@ header nav.navbar-default .navbar-container-top span.channel-name span.rss-feed 
   margin-left: 5px;
   top: -2px;
   font-size: 10px;
+  white-space: nowrap;
 }
 header nav.navbar-default .navbar-container-top .sort-channels {
   padding-top: 17px;
