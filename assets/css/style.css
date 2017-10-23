@@ -1467,3 +1467,17 @@ videogular.error > * {
   }
 }
 /** /MEDIA QUERIES **/
+
+@media (max-width: 767px) {
+header .meta-header .user-menu {
+margin-right: 20px;
+}
+header nav.navbar-default .navbar-container-top span.channel-name {
+margin-left: -100%;
+margin-top: 40px;
+}
+.header-main-menu {
+padding: 15px 0 !important;
+display: inline-flex !important;
+}
+}
